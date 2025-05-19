@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "https://backend-du48.onrender.com",
+  baseURL: "https://backend-du48.onrender.com/api",
 });
 
 axiosInstance.interceptors.request.use((config) => {
