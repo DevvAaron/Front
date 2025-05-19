@@ -1,0 +1,15 @@
+# Dependencias
+node_modules/
+
+# Archivos de entorno de Vite
+.env
+.env.*.local
+
+# Carpeta de producción de Vite
+dist/
+
+# Archivos de log
+*.log
+
+# Archivos temporales
+.DS_Store
